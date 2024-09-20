@@ -10,10 +10,10 @@ function App() {
   return (
     <>
       <div className={styles.siteBackground}>
-        <Navbar />
+        {/* <Navbar /> */}
         <Hero />
-        <ServicesCarousel />
-        <About />
+        {/* <ServicesCarousel /> */}
+        {/* <About /> */}
       </div>
     </>
   );
