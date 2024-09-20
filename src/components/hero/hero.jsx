@@ -46,7 +46,7 @@ export const Hero = () => {
                   }}
                   whileTap={{ scale: 1 }}
                 >
-                  Get in touch
+                  Get a Quote
                 </motion.button>
               </motion.div>
             </div>
