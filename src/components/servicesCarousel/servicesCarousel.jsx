@@ -23,11 +23,13 @@ export const ServicesCarousel = () => {
 
   return (
     <div className={styles.sectionContainer}>
-      <div className={styles.sectionTitle}>Services</div>
-      <div className={styles.cardOuterContainer}>
-        <Card title="test" />
-        <Card title="test" />
-        <Card title="test" />
+      <div style={{ backgroundColor: "var(--accentColor)" }}>
+        <div className={styles.sectionTitle}>Services</div>
+        <div className={styles.cardOuterContainer}>
+          <Card title="test" />
+          <Card title="test" />
+          <Card title="test" />
+        </div>
       </div>
     </div>
   );

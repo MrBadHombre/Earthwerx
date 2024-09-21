@@ -1,5 +1,5 @@
 .siteBackground {
   padding-top: 0px;
 
-  background-color: rgb(12, 12, 12);
+  background-color: var(--darkGreyFont);
 }

@@ -12,42 +12,61 @@ export const Hero = () => {
         transition={{ delay: 0.1, duration: 1, ease: "easeInOut" }}
       >
         <div className={styles.outerContainer}>
-          {/* <img src={logo} className={styles.heroLogo} /> */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5, duration: 1.2, ease: "easeInOut" }}
+          >
+            <div className={styles.titleBlock}>
+              <img src={logo} className={styles.heroLogo} />
+              <div className={styles.heroTitle}>EARTHWERX</div>
+            </div>
+          </motion.div>
           <div className={styles.textBlock}>
             <motion.div
-              initial={{ opacity: 0, y: 60 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5, duration: 1.2, ease: "easeInOut" }}
-            >
-              <div className={styles.heroTitle}>EARTHWERX</div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, y: 60 }}
+              initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 1.2, ease: "easeInOut" }}
             >
               <h1 className={styles.heroTagline}>
-                We are your trusted partner for professional excavation,
-                demolition, and junk removal with a strong track record
+                Whether junk or dirt, we are the experts at moving it!
               </h1>
             </motion.div>
           </div>
-          <motion.div
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 1, duration: 1.2, ease: "easeInOut" }}
-          >
-            <motion.button
-              className={styles.getQuoteButton}
-              whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.2 },
-              }}
-              whileTap={{ scale: 1 }}
+          <div className={styles.buttonContainer}>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1, duration: 1.2, ease: "easeInOut" }}
             >
-              Get a Quote
-            </motion.button>
-          </motion.div>
+              <motion.button
+                className={styles.getQuoteButton}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}
+                whileTap={{ scale: 1 }}
+              >
+                Get a Quote
+              </motion.button>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.3, duration: 1.2, ease: "easeInOut" }}
+            >
+              <motion.button
+                className={styles.servicesButton}
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}
+                whileTap={{ scale: 1 }}
+              >
+                Our Servcies
+              </motion.button>
+            </motion.div>
+          </div>
         </div>
       </motion.div>
     </div>
