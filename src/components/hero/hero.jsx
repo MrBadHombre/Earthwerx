@@ -1,5 +1,5 @@
 import { Navbar } from "../navbar/navbar";
-
+import logo from "../../../public/Earthwerx-logo-white.png";
 import styles from "./styles.module.css";
 import { motion } from "framer-motion";
 
@@ -12,6 +12,7 @@ export const Hero = () => {
         transition={{ delay: 0.1, duration: 1, ease: "easeInOut" }}
       >
         <div className={styles.outerContainer}>
+          <img src={logo} className={styles.heroLogo} />
           <div className={styles.textBlock}>
             <motion.div
               initial={{ opacity: 0, y: 60 }}
