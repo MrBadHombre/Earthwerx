@@ -12,7 +12,7 @@ export const Hero = () => {
         transition={{ delay: 0.1, duration: 1, ease: "easeInOut" }}
       >
         <div className={styles.outerContainer}>
-          <img src={logo} className={styles.heroLogo} />
+          {/* <img src={logo} className={styles.heroLogo} /> */}
           <div className={styles.textBlock}>
             <motion.div
               initial={{ opacity: 0, y: 60 }}
