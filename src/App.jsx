@@ -12,8 +12,8 @@ function App() {
       <div className={styles.siteBackground}>
         {/* <Navbar /> */}
         <Hero />
+        <About />
         {/* <ServicesCarousel /> */}
-        {/* <About /> */}
       </div>
     </>
   );
