@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <div>
       <motion.div
-        initial={{ opacity: 0, y: 60 }}
+        initial={{ opacity: 0, y: 0 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, duration: 1, ease: "easeInOut" }}
       >
