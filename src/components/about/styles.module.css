@@ -1,13 +1,20 @@
 .mainContainer {
-  background-color: var(--accentColor);
+  display: flex;
+  flex-direction: column;
+  /* background-color: var(--accentColor); */
   border-radius: 4px;
   margin: 20px;
-  height: 600px;
+  height: fit-content;
   /* background-color: black; */
-  padding: 20px;
+  padding: 20px 0px 80px 0px;
+  align-items: center;
 }
 
+.logo {
+  width: 240px;
+}
 .mainHeading {
   font-size: var(--bodyMed);
   font-family: "Times New Roman", Times, serif;
+  font-style: italic;
 }

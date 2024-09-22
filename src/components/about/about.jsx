@@ -1,15 +1,28 @@
 import styles from "./styles.module.css";
 import { motion } from "framer-motion";
+import logo from "../../../public/Earthwerx-logo-white.png";
 
 export const About = () => {
   return (
     <div className={styles.mainContainer}>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.75, duration: 1.2, ease: "easeInOut" }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3, duration: 1, ease: "easeInOut" }}
       >
-        <h1 className={styles.mainHeading}>Who we are</h1>
+        <img src={logo} alt="earthwerx logo" className={styles.logo} />
+      </motion.div>
+      <motion.div
+        viewport={{ once: true }}
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6, duration: 1, ease: "easeInOut" }}
+      >
+        <div className={styles.mainHeading}>
+          We have been serving the Northstate's for over 20 years. Whether you
+          need junk hauling, full building demolition, or lot clearing and
+          excavation you can count on Earthwerx to take care of it!
+        </div>
       </motion.div>
     </div>
   );

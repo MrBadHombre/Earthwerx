@@ -10,13 +10,13 @@
 :root {
   --whiteFont: #f4f4f4;
   --darkGreyFont: #1b1b1b;
-  --accentColor: #e7632e;
+  --accentColor: #df551f;
   --mainBackgroundColor: #f1f1f100;
   --h3: 3rem;
   --h2: 4rem;
   --h1: 6rem;
   --bodyLarge: 2rem;
-  --bodyMed: 1.6rem;
+  --bodyMed: 1.4rem;
   --body: 1.2rem;
   --btnMobile: 1.2rem;
 }

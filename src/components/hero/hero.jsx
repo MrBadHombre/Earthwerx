@@ -15,7 +15,7 @@ export const Hero = () => {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 1.2, ease: "easeInOut" }}
+            transition={{ delay: 0.5, duration: 1, ease: "easeInOut" }}
           >
             <div className={styles.titleBlock}>
               <img src={logo} className={styles.heroLogo} />
@@ -26,7 +26,7 @@ export const Hero = () => {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.7, duration: 1.2, ease: "easeInOut" }}
+              transition={{ delay: 0.7, duration: 1, ease: "easeInOut" }}
             >
               <h1 className={styles.heroTagline}>
                 Whether junk or dirt, we are the experts at moving it!
@@ -37,7 +37,7 @@ export const Hero = () => {
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 1, duration: 1.2, ease: "easeInOut" }}
+              transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
             >
               <motion.button
                 className={styles.getQuoteButton}
@@ -47,7 +47,7 @@ export const Hero = () => {
                 }}
                 whileTap={{ scale: 1 }}
               >
-                Get a Quote
+                Give us a call
               </motion.button>
             </motion.div>
             <motion.div
