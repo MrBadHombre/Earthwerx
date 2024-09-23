@@ -12,7 +12,7 @@ function App() {
       <div className={styles.siteBackground}>
         {/* <Navbar /> */}
         <Hero />
-        {/* <ServicesCarousel /> */}
+        <ServicesCarousel />
         <About />
       </div>
     </>

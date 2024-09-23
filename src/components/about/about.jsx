@@ -8,7 +8,7 @@ export const About = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3, duration: 1, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       >
         <img src={logo} alt="earthwerx logo" className={styles.logo} />
       </motion.div>
@@ -16,12 +16,12 @@ export const About = () => {
         viewport={{ once: true }}
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.6, duration: 1, ease: "easeInOut" }}
+        transition={{ duration: 1, ease: "easeInOut" }}
       >
         <div className={styles.mainHeading}>
-          We have been serving the Northstate's for over 20 years. Whether you
-          need junk hauling, full building demolition, or lot clearing and
-          excavation you can count on Earthwerx to take care of it!
+          We have been serving the Northstate's construction needs for over 20
+          years. Whether you need junk hauling, full building demolition, or lot
+          clearing and excavation you can count on Earthwerx to take care of it!
         </div>
       </motion.div>
     </div>

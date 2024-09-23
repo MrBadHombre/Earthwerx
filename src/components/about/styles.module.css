@@ -16,5 +16,6 @@
 .mainHeading {
   font-size: var(--bodyMed);
   font-family: "Times New Roman", Times, serif;
+  line-height: 1.2;
   font-style: italic;
 }
