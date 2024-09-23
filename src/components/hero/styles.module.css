@@ -1,12 +1,14 @@
 .outerContainer {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(to top, #1b1b1b, #1b1b1b68, #1b1b1b00),
+  background-image: linear-gradient(to top, #1b1b1b, #1b1b1bb6, #1b1b1b00),
     url("../../../public/equipment-vertical.jpg");
 
   background-size: cover;
+  background-position-x: 45%;
+  background-position-y: 40%;
   height: 100vh;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   justify-content: space-between;
 
   align-items: center;
