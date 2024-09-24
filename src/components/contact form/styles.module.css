@@ -1,0 +1,12 @@
+.formContainer {
+  padding: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  /* margin-top: 20px; */
+  height: 100%;
+}
+
+.outerContainer {
+  height: 100%;
+}

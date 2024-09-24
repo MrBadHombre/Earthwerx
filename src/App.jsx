@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Hero } from "./components/hero/hero";
 import { ServicesCarousel } from "./components/servicesCarousel/servicesCarousel";
 import { About } from "./components/about/about";
-import { Navbar } from "./components/navbar/navbar";
+import { LeadConnectorForm } from "./components/contact form/contactForm";
 import styles from "./app css/styles.module.css";
 import "./index.css";
 
@@ -12,8 +12,9 @@ function App() {
       <div className={styles.siteBackground}>
         {/* <Navbar /> */}
         <Hero />
-        <ServicesCarousel />
+        {/* <ServicesCarousel /> */}
         <About />
+        <LeadConnectorForm />
       </div>
     </>
   );

@@ -40,6 +40,11 @@ export const Hero = () => {
               transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
             >
               <motion.button
+                onClick={() =>
+                  window.location.replace(
+                    "https://api.leadconnectorhq.com/widget/form/3RGL2BLqniY6BMkIq9c9"
+                  )
+                }
                 className={styles.getQuoteButton}
                 whileHover={{
                   scale: 1.1,
