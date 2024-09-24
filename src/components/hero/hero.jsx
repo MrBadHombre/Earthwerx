@@ -57,6 +57,7 @@ export const Hero = () => {
               transition={{ delay: 1.3, duration: 1.2, ease: "easeInOut" }}
             >
               <motion.a
+                href="sms:9494339441"
                 className={styles.servicesButton}
                 whileHover={{
                   scale: 1.1,
