@@ -39,12 +39,8 @@ export const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1, duration: 1, ease: "easeInOut" }}
             >
-              <motion.button
-                onClick={() =>
-                  window.location.replace(
-                    "https://api.leadconnectorhq.com/widget/form/3RGL2BLqniY6BMkIq9c9"
-                  )
-                }
+              <motion.a
+                href="tel:9494339441"
                 className={styles.getQuoteButton}
                 whileHover={{
                   scale: 1.1,
@@ -53,14 +49,14 @@ export const Hero = () => {
                 whileTap={{ scale: 1 }}
               >
                 Give us a call
-              </motion.button>
+              </motion.a>
             </motion.div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 1.3, duration: 1.2, ease: "easeInOut" }}
             >
-              <motion.button
+              <motion.a
                 className={styles.servicesButton}
                 whileHover={{
                   scale: 1.1,
@@ -69,7 +65,7 @@ export const Hero = () => {
                 whileTap={{ scale: 1 }}
               >
                 Our Servcies
-              </motion.button>
+              </motion.a>
             </motion.div>
           </div>
         </div>

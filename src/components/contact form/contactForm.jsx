@@ -15,6 +15,7 @@ export const LeadConnectorForm = () => {
 
   return (
     <div className={styles.outerContainer}>
+      <h2 className={styles.heading}>Get a Free Estimate!</h2>
       <iframe
         className={styles.formContainer}
         src="https://api.leadconnectorhq.com/widget/form/3RGL2BLqniY6BMkIq9c9"

@@ -1,12 +1,22 @@
 .formContainer {
-  padding: 40px;
+  /* padding: 40px; */
   width: 100%;
   border: none;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   /* margin-top: 20px; */
   height: 100%;
 }
 
 .outerContainer {
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  align-items: center;
+}
+
+.heading {
+  font-size: var(--bodyLarge);
+  color: var(--accentColor);
+  letter-spacing: 1.1px;
+  font-weight: 600;
 }
